@@ -10,3 +10,6 @@ Pada abad ke 500 SM terdapat raja yang mengadakan sayembara, barang siapa yang b
 leng long ling yang menggunakan mesin waktunya untuk kembali ke 500SM pun sangat kegirangan. Leng Long Ling pun ikut pada sayembara tersebut dan membuat sebuah program yang bisa mengkategorikan naskah raja ke kategori yang ditentukan
 
 karena leng long ling tidak berencana untuk menetap disana jadi sumber daya yang ia gunakan cukup sedikit. leng long ling berencana untuk menggunakan pointer agar lebih efisien.
+
+GOTO
+https://github.com/informatika-itts/modul-alstrukdat/blob/master/week-4/code/ots/pointer-starter.c
