@@ -47,21 +47,25 @@ int main() {
 
     // TODO
     // Pada fungsi checkLenghtRequirement akan mengembalikan sebuah angka
-    // angka tersebut digunakan untuk memilih secara otomatis salah satu fungsi yang harus diisi
+    // angka tersebut digunakan untuk memilih secara otomatis salah satu fungsi yang digunakan
     // jika fungsi checkLenghtRequirement() mengembalikan nilai 0, maka
-    //      tampilkan - > The length of your text is less than specified, please update your text
+    //      panggil fungsi lessThanRequired,
+    //      tampilkan - > The length of your text is less than specified, please update your text, dan
     //      update nilai lengthOfText ke minimum requirement melalui pointer menggunakan operasi aritmatika
 
     // jika fungsi checkLenghtRequirement() mengembalikan nilai 1, maka
+    //      panggil fungsi equalThanRequired, dan
     //      tampilkan - > Thank you, Your text length is correct
 
     // jika fungsi checkLenghtRequirement() mengembalikan nilai 2, maka
+    //      panggil fungsi moreThanRequired
     //      tampilkan - > Your text is to long, please reduce the text
     //      update nilai lengthOfText ke minimum requirement melalui pointer menggunakan operasi aritmatika
     //
     // Catatan :
-    //      - tidak diperkenankan menggunakan if atau switch dalam perpindahan fungsi
-    //        sesuai dengan requirement diatas.
+    //      - tidak diperkenankan menggunakan if atau switch, baik dalam main() atau fungsi yang telah tersedia
+    //        untuk mengkondisikan output dari fungsi checkLenghtRequirement dan memanggil fungsi yang
+    //        telah ditentukan
     //      - baris kode tidak lebih dari 100 (include comment ini)
     //      - tidak diperkenankan mengganti yang tertera pada starter code dalam alasan apapun
 
