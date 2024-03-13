@@ -28,7 +28,7 @@ int checkLenghtRequirement(char* text){
 }
 
 int main() {
-    int length, lengthOfText, selectOption;
+    int lengthOfText, selectOption;
     FILE *fptr = NULL;
     char text[MAX_LENGTH];
 
@@ -61,13 +61,23 @@ int main() {
     //      panggil fungsi moreThanRequired
     //      tampilkan - > Your text is to long, please reduce the text
     //      update nilai lengthOfText ke minimum requirement melalui pointer menggunakan operasi aritmatika
-    //
+
+    // setiap fungsi harus memiliki minimal 1 parameter yang merefrensikan variabel panjang dari text
+    
     // Catatan :
     //      - tidak diperkenankan menggunakan if atau switch, baik dalam main() atau fungsi yang telah tersedia
     //        untuk mengkondisikan output dari fungsi checkLenghtRequirement dan memanggil fungsi yang
     //        telah ditentukan
     //      - baris kode tidak lebih dari 100 (include comment ini)
     //      - tidak diperkenankan mengganti yang tertera pada starter code dalam alasan apapun
+
+    // Input :
+    // Isi File -> Tempor sunt quis magna reprehenderit irure irure mollit ex reprehenderit incididunt ex enim. Do eu cillum fugiat sunt reprehenderit. Aute in consequat nulla irure pariatur occaecat velit. Occaecat anim Lorem nulla exercitation dolore et. Qui ea Lorem in consequat nisi exercitation id ad aliqua Lorem anim eu ad.
+
+    // Output :
+    // The length of your text is less than specified, please update your text
+    // Length Before : 312
+    // The Lenght is updated to 2023
 
     printf("\nThe Lenght is updated to %d", lengthOfText);
 
