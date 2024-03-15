@@ -60,7 +60,7 @@ int main() {
     // jika fungsi checkLenghtRequirement() mengembalikan nilai 2, maka
     //      panggil fungsi moreThanRequired
     //      tampilkan - > Your text is to long, please reduce the text
-    //      update nilai lengthOfText ke minimum requirement melalui pointer menggunakan operasi aritmatika
+    //      update nilai lengthOfText ke maximum requirement melalui pointer menggunakan operasi aritmatika
 
     // setiap fungsi harus memiliki minimal 1 parameter yang merefrensikan variabel panjang dari text
     
