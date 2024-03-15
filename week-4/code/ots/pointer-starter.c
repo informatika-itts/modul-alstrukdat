@@ -77,7 +77,7 @@ int main() {
     // Output :
     // The length of your text is less than specified, please update your text
     // Length Before : 312
-    // The Lenght is updated to 2023
+    // The Lenght is updated to 1945
 
     printf("\nThe Lenght is updated to %d", lengthOfText);
 
